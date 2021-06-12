@@ -20,7 +20,7 @@ export default class Contact extends Component {
 
             <main>
             <div class="color">
-            <div class="mainwrapper"
+            <div class="mainwrapper2"
                 >
             
                 <div class="col1">
@@ -60,11 +60,11 @@ export default class Contact extends Component {
                 
 
             
-                <div class="col2con"> 
+                <div class="col2"> 
                 <h1  class="mainbanner">contact</h1>
                 
                 <form name="contact" netlify>
-                    <div class="container">
+                    <div class="containerform">
                     <div class="row100">
                         <div class="col">
                         <div class="inputBox">

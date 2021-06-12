@@ -9,15 +9,15 @@
 body {
 	font-family: montserrat, arial, verdana;
 	
-	background: 
-		linear-gradient(#8feeb5 70%, white 100%);
+	
 }
-.mainwrapper{
+.mainwrapper2 {
     display: grid;
 	grid-template-columns: 10% 90%;
 	
 	height: 100vh;
-	
+	background: 
+		linear-gradient(#8feeb5 70%, white 100%);
 	overflow: hidden;
 }
 .col1{

@@ -6,12 +6,7 @@ import sal from 'sal.js'
 
 export default class Contact extends Component {
 
-    componentDidMount() {
-      sal({
-        
-        once: false,
-      })
-    }
+    
       render() {
         
         return (
@@ -20,10 +15,7 @@ export default class Contact extends Component {
             <Helmet>
             <link rel="stylesheet" href="Quote.css" />
             </Helmet>
-      <div class="mainwrapper"
-        data-sal="slide-down"
-        
-        data-sal-easing="easeInQuint">
+      <div class="mainwrapper2">
         
         <div class="col1">
           

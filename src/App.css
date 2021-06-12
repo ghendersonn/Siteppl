@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+
+
+
 *
 {
 	margin: 0;
@@ -6,7 +10,9 @@
 	font-family: 'Poppins', sans-serif;
 	box-sizing: border-box;
 }
-
+body {
+	background: #f3f3f3;
+}
 .mainwrapper {	
 	display: grid;
 	grid-template-columns: 20% 60% 20%;
@@ -480,7 +486,7 @@ div.screen {
 }
 .containerabout .cardabout .imgbx img
 {
-	max-width: 100px;
+	max-width: 200px;
 }
 .containerabout .cardabout .imgbx h3
 {
@@ -1636,11 +1642,11 @@ section .wave.wave4
 {
 	margin-bottom: 7rem;
 	margin-top: 2rem;
-  display: flex;
+  	display: flex;
 	flex-direction: row;
-  align-items: center;
+  	align-items: center;
 	justify-content: center;
-	background-image: linear-gradient(#f3f3f3 15%, white 50%, #f3f3f3 100%);
+	
 	max-width: 100%;
 }
 #textf
@@ -1652,12 +1658,11 @@ section .wave.wave4
     font-weight: 400;
 	font-family: 'Bree Serif';
   
-    color: rgb(182, 237, 255);
+    color: rgb(197, 238, 251);
     transform:  skewX(5deg);
-  text-shadow: -1px 1px white,
-				
-				-3px 3px whitesmoke,
-				-4px 4px whitesmoke;
+  text-shadow: -1px 1px #cacaca,
+  -2px 2px #cacaca,
+  -3px 3px whitesmoke;
 }
 
 #line1 {

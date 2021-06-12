@@ -116,7 +116,7 @@ export default class Team extends Component {
     <hr id='line1'/>
 
 
-    <div id="socials">
+    <div id="socialsg">
     <h3  id="textg">Gavin Henderson / Co-founder</h3>
     <ul class="socials">
       
@@ -145,9 +145,7 @@ export default class Team extends Component {
       </p>
     </div>
       
-      <h2 data-sal="fade-down"
-      
-      data-sal-easing="easeInQuint" class="plussign">+</h2>
+      <h2  class="plussign">+</h2>
     </div>
  
 
@@ -160,7 +158,7 @@ export default class Team extends Component {
 
   <div id="namet">
 
-    <div id="socials">
+    <div id="socialst">
     <h3 id="textdesc">Tyler Smith / Co-founder</h3>
     <ul class="socials">
       
@@ -178,9 +176,7 @@ export default class Team extends Component {
       data-sal-easing="easeInQuint"><a href="https://www.instagram.com/smith7t/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
     </ul>
   </div>
-  <hr data-sal="slide-left"
- 
-  data-sal-easing="easeInQuint" id='line2'/>
+  <hr  id='line2'/>
   
 </div>
 

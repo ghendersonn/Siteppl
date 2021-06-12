@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 import {Helmet} from 'react-helmet';
 import sal from 'sal.js'
-
-
+import '../App.css'
+import { motion, useViewportScroll, useTransform } from "framer-motion";
 
 
 
@@ -28,9 +28,7 @@ export default class Home extends Component {
       return (
         <div >
         
-        <Helmet>
-        <link rel="stylesheet" href="App.css" />
-        </Helmet>
+       
 
 
     <body id="home">
@@ -105,10 +103,12 @@ export default class Home extends Component {
     </div>
 
     <div className='body'>
+
+  
       <div className="containerabout">
         <div className="cardabout">
           <div className="imgbx">
-            <img src="Images\code.png" alt="Creator Image"/>
+            <img src="Images\top.png" alt="Creator Image"/>
             <h3>A Digital Agency</h3>
           </div>
           
@@ -118,7 +118,7 @@ export default class Home extends Component {
           
         </div>
         
-
+        
       </div>
       
     </div>
@@ -184,7 +184,7 @@ export default class Home extends Component {
             
           </div>
           
-          <h2 id='socialsdev'> + all digital services </h2>
+          
         </div>
         
         <div className="containerabouts" >
